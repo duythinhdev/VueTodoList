@@ -1,0 +1,131 @@
+@import "src/sass/abstract/variable";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background{
+  background-image: url("../../../src/assets/bg.jpg");
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .formlogin{
+    position: relative;
+    background-color: #2c3a47;
+    min-width: 20rem;
+    padding: 20rem 3rem;
+    box-shadow: rgb(0 0 0 / 10%) 0 0 10px;
+    border-radius: 10px;
+  }
+    .formLogin-title{
+      text-align: center;
+      margin-top: -15rem;
+      color: #5E6C84;
+      font-size: 25px;
+      font-family: inherit;
+      font-weight: bold;
+    }
+    .formlogin-email{
+      &__inputemail{
+        height: 40px;
+        width: 350px;
+        position: relative;
+        max-width: 380px;
+        margin: 12px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 4px;
+        border: 2px solid #5E6C84;
+      }
+    }
+    .formlogin-password{
+      &__inputpassword{
+        height: 40px;
+        width: 350px;
+        max-width: 380px;
+        position: relative;
+        margin: 12px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 4px;
+        border: 2px solid #5E6C84;
+      }
+    }
+    .formlogin-signUp{
+      &__button{
+        height: 40px;
+        max-width: 380px;
+        width: 350px;
+        position: relative;
+        margin: 12px;
+        color: white;
+        background: #5AAC44;
+        border-radius: 4px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+      }
+    }
+  .formlogin-text{
+    &__or{
+      text-align: center;
+      color: #5E6C84;
+    }
+  }
+  .formlogin-with{
+    &__google{
+      height: 40px;
+      max-width: 380px;
+      width: 350px;
+      position: relative;
+      margin: 12px;
+      background: white;
+      color: #505f79;
+      border-radius: 4px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      font-size: 15px;
+      font-family: inherit;
+      font-weight: bold;
+    }
+    &__Miro{
+      height: 40px;
+      max-width: 380px;
+      width: 350px;
+      position: relative;
+      margin: 12px;
+      background: white;
+      color: #505f79;
+      border-radius: 4px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      font-size: 15px;
+      font-family: inherit;
+      font-weight: bold;
+    }
+    &__Apple{
+      height: 40px;
+      max-width: 380px;
+      width: 350px;
+      position: relative;
+      margin: 12px;
+      background: white;
+      color: #505f79;
+      border-radius: 4px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      font-size: 15px;
+      font-family: inherit;
+      font-weight: bold;
+    }
+  }
+}
