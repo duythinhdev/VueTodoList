@@ -6,9 +6,9 @@
 }
 .background{
   background-image: url("../../../src/assets/bg.jpg");
-  background-size: cover;
-  width: 100%;
-  min-height: 100vh;
+  background-size: $cover;
+  width: $percentBackground;
+  min-height: $min-height-vh;
   overflow: hidden;
   display: flex;
   justify-content: center;
