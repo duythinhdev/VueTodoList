@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 .background{
-  background-image: url("../../../src/assets/bg.jpg");
+  background: url("~@/assets/image/bg.jpg");
   background-size: $cover;
   width: $percentBackground;
   min-height: $min-height-vh;

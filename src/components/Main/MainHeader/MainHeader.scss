@@ -1,0 +1,126 @@
+.main-header{
+  display: flex;
+  width: 100%;
+  height: 10%;
+  min-height: 12%;
+  background: rgba(0,0,0,.24);
+  .main-header-one{
+    display: flex;
+    justify-content: flex-start;
+    width: 60%;
+    &__button{
+      background-color: hsla(0,0%,100%,.3);
+      width:40px;
+      height: 3.5vh;
+      margin: 2.5px;
+      border-radius: 4px;
+      cursor: pointer;
+      outline: none;
+      border: none;
+      &:hover{
+        background-color: hsla(0,0%,100%,.8);
+      }
+    }
+    &__button-table{
+      background-color: hsla(0,0%,100%,.5);
+      width:85px ;
+      height: 3.5vh;
+      margin: 2.5px;
+      border-radius: 4px;
+      cursor: pointer;
+      outline: none;
+      border: none;
+      &:hover{
+        background-color: hsla(0,0%,100%,.8);
+      }
+    }
+    &__input{
+      margin:2.5px;
+      background-color: hsla(0,0%,100%,.5);
+      height: 3.5vh;
+      width: 10vw;
+      border: none;
+      outline: none;
+      border-radius: 4px;
+      outline: none;
+      border: none;
+      font-size: 1.2rem;
+      &:hover{
+        background-color: hsla(0,0%,100%,.8);
+      }
+    }
+  }
+  .main-header-two{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto 0;
+    &__Text{
+      text-align: center;
+      align-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      &:hover{
+        color:  hsla(0,0%,100%,.5);
+        cursor: pointer;
+      }
+    }
+  }
+  .main-header-three{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    &__sum{
+      background-color: hsla(0,0%,100%,.3);
+      width:40px;
+      height: 3.5vh;
+      margin: 2.5px;
+      border-radius: 4px;
+      cursor: pointer;
+      outline: none;
+      border: none;
+      &:hover{
+        background-color: hsla(0,0%,100%,.8);
+      }
+    }
+    &__info{
+      background-color: hsla(0,0%,100%,.3);
+      width:40px;
+      height: 3.5vh;
+      margin: 2.5px;
+      border-radius: 4px;
+      cursor: pointer;
+      outline: none;
+      border: none;
+      &:hover{
+        background-color: hsla(0,0%,100%,.8);
+      }
+    }
+    &__notifi{
+      background-color: hsla(0,0%,100%,.3);
+      width:40px;
+      height: 3.5vh;
+      margin: 2.5px;
+      border-radius: 4px;
+      cursor: pointer;
+      outline: none;
+      border: none;
+      &:hover{
+        background-color: hsla(0,0%,100%,.8);
+      }
+    }
+    &__cirleAvatar{
+      clip-path: circle(50% at 50% 50%);
+      background-color: hsla(0,0%,100%,.3);
+      width:40px;
+      height: 4vh;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      &:hover{
+        background-color: hsla(0,0%,100%,.8);
+      }
+    }
+  }
+}
