@@ -7,9 +7,12 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
+export default {
+  name:'MainFooter'
+}
 </script>
 
 <style lang="scss">
-@import "MainFooter.scss";
+@import "./MainFooter.scss";
 </style>

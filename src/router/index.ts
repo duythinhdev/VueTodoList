@@ -11,6 +11,12 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('@/components/Main/Main.vue'),
         name:"main"
     },
+    {
+        path: "/signup",
+        component: () => import('@/components/signUp/SignUp.vue'),
+        name:"signup"
+    },
+
 ];
 const history =  createWebHistory(process.env.BASE_URL);
 const router =  createRouter({

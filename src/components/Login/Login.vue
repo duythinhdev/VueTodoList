@@ -8,13 +8,17 @@
           <input type="text"
                  name="email"
                  class="formlogin-email__inputemail"
-                 placeholder=" Nhập Email " />
+                 placeholder=" Nhập Email"
+                 v-model="username"
+          />
         </div >
         <div class="formlogin-password">
           <input type="password"
                  name="password"
                  class="formlogin-password__inputpassword"
-                 placeholder=" Nhập Password " />
+                 placeholder=" Nhập Password"
+                 v-model="password"
+          />
         </div>
         <div class="formlogin-signUp">
           <button
@@ -45,10 +49,18 @@
 
 <script lang="ts">
 export default {
-  name: "Home",
-  components: {
+  data() {
+    return {
+      username: '',
+      password: '',
+    }
+  },
+  methods: {
+    typescript(){
+
+    }
   }
-};
+}
 </script>
 
 <style lang="scss">

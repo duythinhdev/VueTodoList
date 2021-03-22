@@ -39,6 +39,6 @@ export default  {
   name:'MainHeader',
 }
 </script>
-<style lang="scss" scoped >
+<style lang="scss"  >
   @import "MainHeader.scss";
 </style>

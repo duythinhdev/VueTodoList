@@ -11,15 +11,14 @@ import MainHeader from "@/components/Main/MainHeader/MainHeader.vue";
 import MainBody from "@/components/Main/MainBody/MainBody.vue";
 import MainFooter from "@/components/Main/MainFooter/MainFooter.vue";
 export default {
-  name: "main",
+  name:"main",
   components: {
-   MainHeader,
+    MainHeader,
     MainBody,
     MainFooter
   },
   data(){
     return {
-      link:true,
     }
   }
 };
