@@ -29,12 +29,15 @@
                placeholder=" Nhập lại Password"
         />
       </div>
+      <div v-if="this.flag === true">
+        <Loading />
+      </div>
       <div class="formlogin-signUp">
         <button
-            @submit="this.signUp()"
+            @click="signUp"
             type="submit"
             class="formlogin-signUp__button">
-          Đăng Ký</button>
+          <RouterLink to="/" >Đăng Ký</RouterLink></button>
       </div>
     </form>
   </div>

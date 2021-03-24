@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="background">
-      <form class="formlogin"  @submit="event.preventDefault()">
+      <form class="formlogin"  @submit="$event.preventDefault()">
         <div class="formLogin-title">
           <p >Đăng nhập vào Trello</p>
         </div>
@@ -9,7 +9,7 @@
                  name="email"
                  class="formlogin-email__inputemail"
                  placeholder=" Nhập Email"
-                 v-model="username"
+                 v-model="formItems.email"
           />
         </div >
         <div class="formlogin-password">
@@ -17,12 +17,12 @@
                  name="password"
                  class="formlogin-password__inputpassword"
                  placeholder=" Nhập Password"
-                 v-model="password"
+                 v-model="formItems.password"
           />
         </div>
         <div class="formlogin-signUp">
           <button
-              class="formlogin-signUp__button">
+              class="formlogin-signUp__button"  @click="login">
             Đăng Nhập</button>
         </div>
         <div class="formlogin-text">
@@ -48,18 +48,9 @@
 </template>
 
 <script lang="ts">
-export default {
-  data() {
-    return {
-      username: '',
-      password: '',
-    }
-  },
-  methods: {
-    typescript(){
+import {Logins} from "@/components/Login/LoginTS";
+export default class Login extends Logins{
 
-    }
-  }
 }
 </script>
 
